@@ -1,0 +1,10 @@
+Autofs configuration for odroid 
+
+Instruction from https://help.ubuntu.com/community/Autofs
+
+# Installation 
+
+$ sudo apt-get install autofs
+
+The scripts in this folder needs to be copied into /etc
+
