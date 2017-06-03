@@ -1,0 +1,6 @@
+#!/bin/sh
+# The 10 seconds sleep is needed to avoid race conditions between the rules set by openvpn and the following one
+sleep 10
+iptables -I FORWARD -s 192.168.0.2 -j DROP
+iptables -I FORWARD -s 192.168.0.2 -p udp --dport 1194 -j ACCEPT
+iptables -I FORWARD -s 192.168.0.2 -p udp --dport 123 -j ACCEPT
