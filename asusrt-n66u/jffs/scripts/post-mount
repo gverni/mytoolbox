@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ "$1" = "/tmp/mnt/sdb1" ] ; then
+  ln -nsf $1/entware /tmp/opt
+  logger post-mount: Mounted entware
+fi
+
+if [ "$1" = "/tmp/mnt/sdb3" ] ; then
+  /opt/etc/init.d/S70mysqld restart
+fi 
