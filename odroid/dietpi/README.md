@@ -9,7 +9,9 @@
 
 # Restart services: 
 
-```dietpi-services ( start | stop | restart ) service_nane ```
+```
+$ dietpi-services ( start | stop | restart ) service_nane 
+```
 
 # Other tools: 
 
