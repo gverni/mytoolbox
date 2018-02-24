@@ -15,8 +15,12 @@
 
 Launch the main dietpi utility
 
-```dietpi-launcher```
+```
+$ dietpi-launcher
+```
 
 Mount usb drives
 
-```dietpi-drive_manager```
+```
+$ dietpi-drive_manager
+```
