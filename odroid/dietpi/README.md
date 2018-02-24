@@ -1,11 +1,12 @@
 
+# Notable sevices
 * SB: 
-** Executable: /etc/...
-** Config: /mnt/dietpi_userdata/...
+  * Executable: /etc/...
+  * Config: /mnt/dietpi_userdata/...
 
 * Transmission
-** Config: /etc/transmission-daemon/settings.json (/var/lib/transmission-daemon
+  * Config: /etc/transmission-daemon/settings.json (/var/lib/transmission-daemon
 
-Restart services: 
+# Restart services: 
 
- dietpi-services ( start | stop | restart ) service_nane 
+```dietpi-services ( start | stop | restart ) service_nane ```
