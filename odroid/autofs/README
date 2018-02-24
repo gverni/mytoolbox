@@ -4,7 +4,9 @@ Instruction from https://help.ubuntu.com/community/Autofs
 
 # Installation 
 
+$ sudo apt-get install nfs-common
 $ sudo apt-get install autofs
 
-The scripts in this folder needs to be copied into /etc
+Then edit /etc/master accordingly to the example in this repo (remember to comment the two +dir) and 
+add /etc/auto.nfs with the content of this repo 
 
